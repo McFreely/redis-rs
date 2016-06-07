@@ -9,14 +9,8 @@ documentation = "http://mitsuhiko.github.io/redis-rs/"
 license = "BSD-3-Clause"
 readme = "README.md"
 
-#[dependencies.sha1]
-#git = "https://github.com/mitsuhiko/rust-sha1.git"
-#
-#[dependencies.url]
-#git = "https://github.com/servo/rust-url"
-
 [dependencies]
 sha1 = "0.1.1"
-url = "1.0.0"
+url = "1.1"
 rustc-serialize = "0.3.16"
 unix_socket = { version ="0.5.0", optional = true }
